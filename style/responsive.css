@@ -7,9 +7,23 @@
     {
 
         display: flex;
-        flex-direction: column;
+        flex-direction: column;       
 
     }
+
+    header nav a
+{
+
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+    margin-left: 25px;    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+}
 
     .botao
     {

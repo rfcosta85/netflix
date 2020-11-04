@@ -5,7 +5,7 @@
 
     --vermelho: #E50914;
     --preta: #141414;
-    font-family: 'Times New Roman', Times, serif;
+    
 
 }
 
@@ -17,6 +17,11 @@
     box-sizing: border-box;
 }
 
+/*Importando fonte próxima a usada no logo do Netflix*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
 /*elementos base*/
 
 body 
@@ -24,8 +29,17 @@ body
 
     background: var(--preta);    
     color: white;
+    font-family: 'Arial', Times, serif;
 
 }
+
+h2 .logo
+{
+
+    font-family: 'Bebas Neue', cursive;
+
+}
+
 
 header .container
 {
@@ -34,13 +48,14 @@ header .container
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    margin-right: 30px;
 
 }
 
 header .logo
 {
 
-    margin-left: 5px;
+    margin-left: 5px;   
     color: var(--vermelho);
     font-family: 'Arial Black', Times;
     font-size: 40px;
@@ -53,6 +68,7 @@ header nav a
     text-decoration: none;
     color: #AAA;
     margin-right: 10px;
+    
 
 }
 
@@ -149,6 +165,7 @@ header nav a:hover
     height: 100%;
     width: 100%;
     display: block;
+    cursor: pointer;
 
 }
 
