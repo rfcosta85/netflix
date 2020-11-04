@@ -22,7 +22,7 @@
 body 
 {
 
-    background: var(--preta);
+    background: var(--preta);    
     color: white;
 
 }
@@ -149,5 +149,12 @@ header nav a:hover
     height: 100%;
     width: 100%;
     display: block;
+
+}
+
+.carrossel-filmes
+{
+
+    margin-top: 5px;
 
 }
